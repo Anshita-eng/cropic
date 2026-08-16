@@ -1,4 +1,4 @@
-const BASE = 'http://127.0.0.1:8000/api'
+const BASE = 'https://cropic-backend-n86r.onrender.com';
 
 function authHeaders() {
   const token = localStorage.getItem('cropic_token')
